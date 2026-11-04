@@ -1,25 +1,26 @@
-# JON-DI Facility — Website
+# JON-DI Facility Inc. — Website
 
-Site estático em HTML, CSS e JavaScript. Não precisa instalar dependências nem executar build.
-
-## Subir no GitHub
+## Publicar no GitHub Pages
 1. Extraia este ZIP.
-2. Crie ou abra seu repositório no GitHub.
-3. Envie index.html, a pasta assets, README.md e .nojekyll para a raiz do repositório. Não envie apenas o ZIP.
-4. Para publicar no GitHub Pages: Settings → Pages → Deploy from a branch → main → / (root) → Save.
+2. Envie index.html, assets, README.md e .nojekyll para a raiz do repositório (não apenas o ZIP).
+3. Settings → Pages → Deploy from a branch → main → / (root) → Save.
 
-## Teste local
-Abra index.html no navegador ou execute: python -m http.server 8000
-Depois acesse http://localhost:8000.
+Não é necessário instalar dependências ou executar build.
 
-## Conteúdo
-- index.html: página, estilos e interações.
-- assets/: imagens locais usadas pelo site.
-- Formulários: abrem o aplicativo de e-mail com o pedido preenchido para jondicleaning@gmail.com; o visitante precisa enviar a mensagem. Não há servidor de envio de e-mail.
-- Slides automáticos dos serviços: desktop e mobile. Galeria automática: mobile. Botões de pausa incluídos.
-- Telefone: (781) 888-6007.
+## Formulários
+Os formulários da janela e do rodapé enviam pelo FormSubmit para jondicleaning@gmail.com.
+A ativação deve ser confirmada nessa caixa de e-mail após o primeiro envio pelo site publicado. Verifique também o spam. A entrega ainda não foi confirmada.
+O envio depende de conexão e do serviço FormSubmit. Teste novamente após publicar no seu domínio/GitHub Pages e confirme a chegada do pedido.
 
-## Alterações
-Edite os textos no index.html. Para trocar imagens, substitua o arquivo correspondente em assets, mantendo o nome, ou atualize seu caminho no HTML/JavaScript.
+## Atualizações incluídas
+- Logo JON-DI Facility Inc. e link do Facebook.
+- Área de mais de 25 anos de experiência.
+- Nova imagem de Steam Power Washing.
+- Serviços na ordem: Steam Power Washing, Floor Care, Commercial Cleaning, Residential Cleaning, Carpet Cleaning.
+- Slides automáticos dos serviços no desktop e mobile; galeria automática no mobile.
+- Formulário em janela nos botões Get a Free Quote.
 
-As imagens incluem fotografias ilustrativas geradas por IA e imagens de banco. Não são registros de trabalhos reais da empresa.
+## Editar
+Textos, estilos e scripts estão em index.html. As imagens ficam em assets.
+Telefone: (781) 888-6007.
+As imagens são ilustrativas, incluindo fotos geradas por IA.
